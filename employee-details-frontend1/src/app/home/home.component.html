@@ -1,0 +1,32 @@
+<div class="container mt-5">
+  <h1>{{ 'WELCOME' | translate }}</h1>
+
+  <h2>{{ 'INTRO_ANGULAR' | translate }}</h2>
+  <p>{{ 'ANGULAR_DESCRIPTION' | translate }}</p>
+
+  <h3>{{ 'CLI_COMMANDS_ANGULAR' | translate }}</h3>
+  <p>{{ 'CLI_COMMANDS_ANGULAR_DESCRIPTION' | translate }}</p>
+  <pre><code class="cli-command">
+    ng new my-angular-app   # {{ 'CREATE_APP' | translate }}
+    cd my-angular-app        # {{ 'NAVIGATE_APP' | translate }}
+    ng serve                 # {{ 'SERVE_APP' | translate }}
+  </code></pre>
+
+  <h2>{{ 'INTRO_I18N' | translate }}</h2>
+  <p>{{ 'I18N_DESCRIPTION' | translate }}</p>
+
+  <h3>{{ 'CLI_COMMANDS_I18N' | translate }}</h3>
+  <p>{{ 'CLI_COMMANDS_I18N_DESCRIPTION' | translate }}</p>
+  <pre><code class="cli-command">
+    ng add angular/localize  # {{ 'ADD_I18N' | translate }}
+    ng extract-i18n           # {{ 'EXTRACT_I18N' | translate }}
+    ng generate component my-component --i18n  # {{ 'GENERATE_COMPONENT' | translate }}
+    ng serve --configuration=fr # {{ 'SERVE_LANGUAGE' | translate }}
+  </code></pre>
+
+  <h3>{{ 'CLI_COMMANDS_TRANSLATE' | translate }}</h3>
+  <p>{{ 'CLI_COMMANDS_TRANSLATE_DESCRIPTION' | translate }}</p>
+  <pre><code class="cli-command">
+    npm install ngx-translate/core ngx-translate/http-loader  # {{ 'INSTALL_TRANSLATE' | translate }}
+  </code></pre>
+</div>

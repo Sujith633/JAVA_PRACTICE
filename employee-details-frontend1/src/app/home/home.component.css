@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #417a36;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1, h2, h3 {
+  color: #007bff;
+}
+
+p {
+  line-height: 1.6;
+}
+
+pre {
+  background-color: #f8f9fa;
+  border-left: 5px solid #007bff;
+  padding: 15px;
+  overflow-x: auto;
+  border-radius: 4px;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+  color: #d63384;
+}

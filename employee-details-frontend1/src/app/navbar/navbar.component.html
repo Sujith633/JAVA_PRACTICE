@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">{{ 'ANGULAR' | translate }}</a>
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/" routerLinkActive="active">{{ 'HOME' | translate }}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/employees" routerLinkActive="active">{{ 'EMPLOYEE_LIST' | translate }}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/add-employee" routerLinkActive="active">{{ 'ADD_EMPLOYEE' | translate }}</a>
+      </li>
+    </ul>
+    <div class="ml-auto d-flex gap-3">
+      <button class="btn btn-light btn-sm language-btn" (click)="changeLanguage('en')">English</button>
+      <button class="btn btn-light btn-sm language-btn" (click)="changeLanguage('fr')">Français</button>
+    </div>
+  </div>
+</nav>

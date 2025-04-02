@@ -1,0 +1,23 @@
+<div class="container mt-4">
+
+  <div class="card">
+    <div class="card-body">
+      <form (ngSubmit)="addEmployee()">
+        <h2 class="text-center">{{ 'ADD_EMPLOYEE' | translate }}</h2>
+        <div class="form-group">
+          <label>{{ 'FIRST_NAME' | translate }}</label>
+          <input type="text" [(ngModel)]="newEmployee.firstName" name="firstName" class="form-control" required>
+        </div>
+        <div class="form-group my-2">
+          <label>{{ 'LAST_NAME' | translate }}</label>
+          <input type="text" [(ngModel)]="newEmployee.lastName" name="lastName" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label>{{ 'EMAIL' | translate }}</label>
+          <input type="email" [(ngModel)]="newEmployee.email" name="email" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary my-3">{{ 'SUBMIT' | translate }}</button>
+      </form>
+    </div>
+  </div>
+</div>

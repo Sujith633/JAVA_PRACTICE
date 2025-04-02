@@ -1,0 +1,33 @@
+/* Ensure the navbar is styled properly */
+nav {
+  background-color: black;
+  padding-left: 20px;
+  padding-right: 14px;
+}
+
+/* Style for language buttons to make them equal size */
+.language-btn {
+  padding: 8px 16px;  /* Adjust the padding for a consistent button size */
+  font-size: 14px;     /* Smaller font size */
+  width: auto;         /* Allow the button width to adjust based on content */
+}
+
+/* Optional: Change background color on hover */
+.language-btn:hover {
+  background-color: #0056b3; /* Darker shade for hover */
+  color: white;              /* White text on hover */
+}
+
+/* Align the language buttons to the right and add gap between buttons */
+.ml-auto {
+  margin-left: auto;  /* Pushes buttons to the right */
+}
+
+.d-flex {
+  display: flex;         /* Use Flexbox for layout */
+  justify-content: flex-end; /* Align items to the right */
+}
+
+.gap-3 {
+  gap: 10px;   /* Adjust the gap between the buttons */
+}
