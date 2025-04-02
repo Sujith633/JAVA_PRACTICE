@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2">
+  <file source-language="fr" datatype="plaintext">
+    <body>
+      <trans-unit id="employeeFormTitle">
+        <source>Employee Form</source>
+        <target>Formulaire de l'employé</target>
+      </trans-unit>
+      <trans-unit id="firstNameLabel">
+        <source>First Name</source>
+        <target>Prénom</target>
+      </trans-unit>
+      <trans-unit id="lastNameLabel">
+        <source>Last Name</source>
+        <target>Nom de famille</target>
+      </trans-unit>
+      <!-- Add other fields similarly -->
+    </body>
+  </file>
+</xliff>
